@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('./assets/background.png');
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    background-color:#404040;
+    color: white;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.dice {
+    width: 3rem;
+}
+
+.roll-list {
+    display: none;
+    margin-top: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    color: #404040;
+}
+
+.shown {
+    display: flex;
+}
+
+.roll-item {
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 100%, 0.60);
+    width: 15rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    backdrop-filter: blur(2px);
+    border-color: #404040;
+    border-width: 5px;
+    border-style: dashed;
+}
+
+.challenge {
+    flex-grow: 1;
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge .clicked {
+    display: none;
+}
+
+.challenge button {
+    border: none;
+    font: inherit;
+    font-size: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+    border-radius: 15px;
+    background-color: hsla(0, 0%, 100%, 0.60);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.challenge button:hover {
+    background-color: hsla(0, 0%, 100%, 0.80);
+    cursor: pointer;
+}

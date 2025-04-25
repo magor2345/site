@@ -1,0 +1,65 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "name": "Palette",
+            "entries": [
+                    {
+                        "type": "card",
+                        "value": "Warm Tones (reds / oranges / yellows)",
+                        "weight": 2
+                    },
+                    {
+                        "type": "card",
+                        "value": "Cool Tones (blues / greens / purples)",
+                        "weight": 2
+                    },
+                    {
+                        "type": "card",
+                        "value": "High-Contrast (Black & White)",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Gradient",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Rainbow(Colorful)",
+                        "weight": 2
+                    },
+                    {
+                        "type": "card",
+                        "value": "Monochrome",
+                        "weight": 2
+                    },
+                    {
+                        "type": "card",
+                        "value": "Ice & Frost Palette",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Volcanic Heat Palette",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Only Wood Variants",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Only Concrete (all colors)",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Minimalist ≤3 Block Types",
+                        "weight": 0.3
+                    }
+            ]
+        }
+    ]
+}

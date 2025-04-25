@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {   
+            "name": "Location",
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "deck",
+                "value": "dimension",
+                "weight": 5
+              },
+              {
+                "type": "deck",
+                "value": "biome",
+                "weight": 1
+              }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {   
+            "name": "Location",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "card",
+                    "value": "Overworld",
+                    "weight": 2
+                },
+                {
+                    "type": "card",
+                    "value": "The Nether",
+                    "weight": 2
+                },
+                {
+                    "type": "card",
+                    "value": "The End",
+                    "weight": 1
+                },
+                {
+                    "type": "card",
+                    "value": "Underground",
+                    "weight": 1
+                },
+                {
+                    "type": "card",
+                    "value": "Ocean",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

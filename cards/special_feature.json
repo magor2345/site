@@ -1,0 +1,80 @@
+{
+    "pools": [
+        {   
+            "name": "Modifier",
+            "rolls": 1,
+            "entries": [
+                {
+                  "type": "card",
+                  "value": "Redstone Mechanism",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Water Feature (waterfall,moat)",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Hidden Room / Secret Entrance",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Mob Display (armor stands,heads)",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Hanging Walkways / Bridges",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Greenery",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Clock / Timepiece Detail",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Map-Art Mural",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Portal",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Fire & Lava Effects",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Parkour",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Entities",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Camouflaged / hidden",
+                  "weight": 2
+                },
+                {
+                  "type": "card",
+                  "value": "Abandoned / Destroyed",
+                  "weight": 2
+                }
+            ]
+        }
+    ]
+}

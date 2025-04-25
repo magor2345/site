@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "deck",
+                    "value": "color_palette",
+                    "weight": 2,
+                    "limit": 1
+                },
+                {
+                    "type": "deck",
+                    "value": "special_feature",
+                    "weight": 1
+                },
+                {
+                    "type": "deck",
+                    "value": "location",
+                    "weight": 1,
+                    "limit": 1
+                }
+            ]
+        }
+    ]
+}
