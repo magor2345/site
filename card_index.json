@@ -4,5 +4,10 @@
     "special_feature",
     "biome",
     "dimension",
-    "location"
+    "location",
+    "build",
+    "creature",
+    "structure",
+    "vehicle",
+    "nature"
 ]

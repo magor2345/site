@@ -1,6 +1,15 @@
 {
     "pools": [
         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "deck",
+                    "value": "build"
+                }
+            ]
+        },
+        {
             "rolls": {
                 "min": 0,
                 "max": 4

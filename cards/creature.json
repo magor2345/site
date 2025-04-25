@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {   
+            "name": "Creature",
+            "rolls": 1,
+            "entries": [
+                { "type": "card", "value": "Cow" },
+                { "type": "card", "value": "Pig" },
+                { "type": "card", "value": "Chicken" },
+                { "type": "card", "value": "Sheep" },
+                { "type": "card", "value": "Wolf" },
+                { "type": "card", "value": "Cat" },
+                { "type": "card", "value": "Fox" },
+                { "type": "card", "value": "Bee" },
+                { "type": "card", "value": "Rabbit" },
+                { "type": "card", "value": "Turtle" },
+                { "type": "card", "value": "Dolphin" },
+                { "type": "card", "value": "Horse" },
+                { "type": "card", "value": "Ocelot" },
+                { "type": "card", "value": "Panda" },
+                { "type": "card", "value": "Llama" }
+              ]
+              
+        }
+    ]
+}

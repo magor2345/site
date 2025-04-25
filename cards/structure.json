@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {   
+            "name": "Structure",
+            "rolls": 1,
+            "entries": [
+                { "type": "card", "value": "Castle" },
+                { "type": "card", "value": "Floating Island / Base" },
+                { "type": "card", "value": "Lighthouse" },
+                { "type": "card", "value": "Statue / Monument" },
+                { "type": "card", "value": "Cathedral / Church" },
+                { "type": "card", "value": "Amphitheater / Stadium" },
+                { "type": "card", "value": "Mushroom House" },
+                { "type": "card", "value": "Clock Tower" },
+                { "type": "card", "value": "Jungle Temple" },
+                { "type": "card", "value": "Treehouse" },
+                { "type": "card", "value": "Arcade" },
+                { "type": "card", "value": "Aquarium" },
+                { "type": "card", "value": "Camp" },
+                { "type": "card", "value": "Dungeon" }
+              ]
+              
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {   
+            "rolls": 1,
+            "entries": [
+              {
+                "type": "deck",
+                "value": "creature",
+                "weight": 1
+              },
+              {
+                "type": "deck",
+                "value": "structure",
+                "weight": 1
+              },
+              {
+                "type": "deck",
+                "value": "nature",
+                "weight": 1
+              },
+              {
+                "type": "deck",
+                "value": "vehicle",
+                "weight": 1
+              }
+            ]
+        }
+    ]
+}

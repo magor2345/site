@@ -1,0 +1,16 @@
+{
+    "pools": [
+        {   
+            "name": "Vehicle",
+            "rolls": 1,
+            "entries": [
+                { "type": "card", "value": "Ship / Pirate Galleon" },
+                { "type": "card", "value": "Steam Locomotive" },
+                { "type": "card", "value": "Car" },
+                { "type": "card", "value": "Hot Air Balloon" },
+                { "type": "card", "value": "Plane" }
+              ]
+              
+        }
+    ]
+}

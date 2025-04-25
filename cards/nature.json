@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {   
+            "name": "Nature",
+            "rolls": 1,
+            "entries": [
+                { "type": "card", "value": "Tree" },
+                { "type": "card", "value": "Waterfall" },
+                { "type": "card", "value": "Beehive" },
+                { "type": "card", "value": "Anthill" }
+              ]
+              
+        }
+    ]
+}
