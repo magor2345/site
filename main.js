@@ -4,17 +4,20 @@ loadCards()
 const main = "main"
 let btn = document.getElementById("challenge")
 let list = document.getElementById("roll-list")
+let display_container = document.getElementById("display-container")
+let restart_button = document.getElementById("restart-button")
 btn.onclick = (e) => printCards(e);
+restart_button.onclick = (e) => printCards(e);
 
 function printCards(e) {
-    e.preventDefault()
+    list.innerHTML = "";
     if (!decks || !decks[main]) return
     const cards = getCards(decks[main])
     cards.forEach((card)=>{
         list.appendChild(createCard(card))
     })
     btn.classList.add("clicked")
-    list.classList.add("shown")
+    display_container.classList.add("shown")
 }
 
 function createCard(rollValue) {
@@ -29,22 +32,21 @@ function createCard(rollValue) {
     return card
 }
 
-function getCards(deck) {
+function getCards(deck, name) {
     let cards = []
     deck.pools.forEach((pool)=>{
         let weight_pool = getPool(pool)
         for (let i = getRolls(pool); i > 0; i--) {
             index = randomIndexByWeight(weight_pool)
-            console.log(weight_pool)
             entry = pool.entries[index]
             if (entry.type == "deck") {
                 if (entry.value in decks){
-                    cards = [...cards, ...getCards(decks[entry.value])]
+                    cards = [...cards, ...getCards(decks[entry.value], pool.name ? pool.name : name)]
                 }
             } else {
                 cards.push(
                     {
-                        name: pool.name,
+                        name: pool.name ? pool.name : name,
                         value: entry.value
                     }
                 )
@@ -61,18 +63,6 @@ function getRolls(pool) {
         return pool.rolls.min + Math.floor((pool.rolls.max - pool.rolls.min + 1) * Math.random())
     }
     return 0
-}
-
-function getWeights(pool) {
-    let total = 0
-    const arr = pool.entries.map((entry)=>{
-        const weight = "weight" in entry ? entry.weight : 1
-        total += weight
-        return weight
-    })
-    const indexes = []
-    for (let i = 0; i < arr.length; i++) indexes.push[i]
-    return [total, arr, indexes]
 }
 
 function randomIndexByWeight(card_pool) {

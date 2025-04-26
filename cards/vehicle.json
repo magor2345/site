@@ -1,16 +1,31 @@
 {
     "pools": [
         {   
-            "name": "Vehicle",
             "rolls": 1,
             "entries": [
-                { "type": "card", "value": "Ship / Pirate Galleon" },
-                { "type": "card", "value": "Steam Locomotive" },
+                { "type": "card", "value": "Ship" },
+                { "type": "card", "value": "Train" },
                 { "type": "card", "value": "Car" },
-                { "type": "card", "value": "Hot Air Balloon" },
+                { "type": "card", "value": "Hot Air Balloon / Blimp" },
+                { "type": "card", "value": "Plane" },
+                { "type": "card", "value": "Tractor" },
+                { "type": "card", "value": "Excavator" },
+                { "type": "card", "value": "Spaceship" },
+                { "type": "card", "value": "Motorcycle" },
                 { "type": "card", "value": "Plane" }
               ]
-              
+        },
+        {
+            "name": "Style",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                { "type": "card", "value": "Steampunk" },
+                { "type": "card", "value": "Modern" },
+                { "type": "card", "value": "Futuristic" }
+            ]
         }
     ]
 }

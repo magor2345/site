@@ -7,12 +7,12 @@
                 {
                     "type": "card",
                     "value": "Overworld",
-                    "weight": 2
+                    "weight": 3
                 },
                 {
                     "type": "card",
                     "value": "The Nether",
-                    "weight": 2
+                    "weight": 3
                 },
                 {
                     "type": "card",

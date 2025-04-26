@@ -1,7 +1,6 @@
 {
     "pools": [
         {   
-            "name": "Nature",
             "rolls": 1,
             "entries": [
                 { "type": "card", "value": "Tree" },

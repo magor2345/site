@@ -16,7 +16,12 @@
                     },
                     {
                         "type": "card",
-                        "value": "High-Contrast (Black & White)",
+                        "value": "High-Contrast",
+                        "weight": 1
+                    },
+                    {
+                        "type": "card",
+                        "value": "Black & White",
                         "weight": 1
                     },
                     {

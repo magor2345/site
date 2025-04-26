@@ -6,73 +6,59 @@
             "entries": [
                 {
                   "type": "card",
-                  "value": "Redstone Mechanism",
-                  "weight": 2
+                  "value": "Redstone Mechanism"
+                 },
+                {
+                  "type": "card",
+                  "value": "Water Feature (waterfall,moat)"
                 },
                 {
                   "type": "card",
-                  "value": "Water Feature (waterfall,moat)",
-                  "weight": 2
+                  "value": "Hidden Room / Secret Entrance"
                 },
                 {
                   "type": "card",
-                  "value": "Hidden Room / Secret Entrance",
-                  "weight": 2
+                  "value": "Mob Display (armor stands,heads)"
                 },
                 {
                   "type": "card",
-                  "value": "Mob Display (armor stands,heads)",
-                  "weight": 2
+                  "value": "Hanging Walkways / Bridges"
                 },
                 {
                   "type": "card",
-                  "value": "Hanging Walkways / Bridges",
-                  "weight": 2
+                  "value": "Greenery"
                 },
                 {
                   "type": "card",
-                  "value": "Greenery",
-                  "weight": 2
+                  "value": "Clock / Timepiece Detail"
                 },
                 {
                   "type": "card",
-                  "value": "Clock / Timepiece Detail",
-                  "weight": 2
+                  "value": "Map-Art Mural"
                 },
                 {
                   "type": "card",
-                  "value": "Map-Art Mural",
-                  "weight": 2
+                  "value": "Portal"
                 },
                 {
                   "type": "card",
-                  "value": "Portal",
-                  "weight": 2
+                  "value": "Fire & Lava Effects"
                 },
                 {
                   "type": "card",
-                  "value": "Fire & Lava Effects",
-                  "weight": 2
+                  "value": "Parkour"
                 },
                 {
                   "type": "card",
-                  "value": "Parkour",
-                  "weight": 2
+                  "value": "Entities"
                 },
                 {
                   "type": "card",
-                  "value": "Entities",
-                  "weight": 2
+                  "value": "Camouflaged / hidden"
                 },
                 {
                   "type": "card",
-                  "value": "Camouflaged / hidden",
-                  "weight": 2
-                },
-                {
-                  "type": "card",
-                  "value": "Abandoned / Destroyed",
-                  "weight": 2
+                  "value": "Abandoned / Destroyed"
                 }
             ]
         }

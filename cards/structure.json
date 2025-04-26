@@ -1,7 +1,6 @@
 {
     "pools": [
         {   
-            "name": "Structure",
             "rolls": 1,
             "entries": [
                 { "type": "card", "value": "Castle" },
@@ -17,9 +16,37 @@
                 { "type": "card", "value": "Arcade" },
                 { "type": "card", "value": "Aquarium" },
                 { "type": "card", "value": "Camp" },
-                { "type": "card", "value": "Dungeon" }
+                { "type": "card", "value": "Dungeon" },
+                { "type": "card", "value": "Hobbit House" },
+                { "type": "card", "value": "House" },
+                { "type": "card", "value": "Lab" },
+                { "type": "card", "value": "Mine" }
               ]
-              
+        },
+        {   
+            "name": "Style",
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                { "type": "card", "value": "Medieval" },
+                { "type": "card", "value": "Gothic" },
+                { "type": "card", "value": "Renaissance" },
+                { "type": "card", "value": "Baroque" },
+                { "type": "card", "value": "Victorian" },
+                { "type": "card", "value": "Art Nouveau" },
+                { "type": "card", "value": "Art Deco" },
+                { "type": "card", "value": "Modernist" },
+                { "type": "card", "value": "Brutalist" },
+                { "type": "card", "value": "Postmodern" },
+                { "type": "card", "value": "Futuristic / Sci-Fi" },
+                { "type": "card", "value": "Steampunk" },
+                { "type": "card", "value": "Industrial" },
+                { "type": "card", "value": "Minimalist" },
+                { "type": "card", "value": "Organic" },
+                { "type": "card", "value": "Japanese" }
+            ]
         }
     ]
 }

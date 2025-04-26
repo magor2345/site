@@ -1,7 +1,6 @@
 {
     "pools": [
         {   
-            "name": "Creature",
             "rolls": 1,
             "entries": [
                 { "type": "card", "value": "Cow" },

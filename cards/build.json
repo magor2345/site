@@ -1,27 +1,24 @@
 {
     "pools": [
         {   
+            "name": "Build",
             "rolls": 1,
             "entries": [
               {
                 "type": "deck",
-                "value": "creature",
-                "weight": 1
+                "value": "creature"
               },
               {
                 "type": "deck",
-                "value": "structure",
-                "weight": 1
+                "value": "structure"
               },
               {
                 "type": "deck",
-                "value": "nature",
-                "weight": 1
+                "value": "nature"
               },
               {
                 "type": "deck",
-                "value": "vehicle",
-                "weight": 1
+                "value": "vehicle"
               }
             ]
         }
